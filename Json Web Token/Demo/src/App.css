@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  background-color: blue;
+  padding: 10px;
+}
+
+form div {
+  margin: 10px;
+}
+
+form label {
+  display: inline-block;
+  width: 120px;
+
+}
+
+.profilePicPreview {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border: 2px solid red;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  background-color: aqua;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* Adjust as needed */
+  height: 100vh;
+  /* Full viewport height, adjust as needed */
+  background-color: blue;
+  /* Optional: for better visibility */
+}
+
+.image-container img {
+  width: 300px;
+  /* Set the width of the image */
+  height: 300px;
+  /* Set the height of the image */
+}
